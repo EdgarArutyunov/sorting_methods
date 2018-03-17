@@ -129,6 +129,7 @@ void print_inf(int type_ar, int type_sort) { /// печать данных дл�
             }
         }
     }
+    free(a);
     printf("\n");
 }
 
